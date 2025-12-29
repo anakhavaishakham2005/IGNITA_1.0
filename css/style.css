@@ -349,3 +349,8 @@ footer{
   text-shadow: 0 0 15px #20ef92;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
+
+footer{
+  width: 100%;
+  margin:0;
+}
