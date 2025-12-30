@@ -565,3 +565,20 @@ html, body {
   align-self: center;
   align-items: center;
 }
+
+
+.insta-icon {
+  font-size: 26px;
+  color: #4DEEA5;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.insta-icon:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+#foot p {
+  margin: 5px;
+  font-size: 20px;
+}
