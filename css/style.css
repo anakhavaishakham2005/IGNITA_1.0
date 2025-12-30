@@ -374,7 +374,6 @@ footer{
   width: 45px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 0 8px #20ef92;
 }
 
 
@@ -535,15 +534,7 @@ html, body {
   height: 0%;
 }
 
-@media (max-width: 768px) {
-#tagline{
-  font-size: 28px;
-  letter-spacing: -0.5px; /* Or use 'em' units, e.g., -0.05em */
-;}
-  #m20{
-    font-size: 65px;
-  }
-}
+
 
 #com{
   margin: 80px;
@@ -581,4 +572,18 @@ html, body {
 #foot p {
   margin: 5px;
   font-size: 20px;
+}
+
+@media (max-width: 768px) {
+#tagline{
+  font-size: 28px;
+  letter-spacing: -0.5px; /* Or use 'em' units, e.g., -0.05em */
+;}
+  #m20{
+    font-size: 65px;
+  }
+  #foot p {
+  margin: 5px;
+  font-size: 15px;
+}
 }
