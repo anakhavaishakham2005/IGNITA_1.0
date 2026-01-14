@@ -608,3 +608,19 @@ html, body {
   font-size: larger;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+.spon {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  margin: 30px auto;
+  border-radius: 30%;
+  box-shadow: 0 0 15px black;
+}
+
+.spon img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1.2);
+}
+
